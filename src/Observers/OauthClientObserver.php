@@ -2,7 +2,8 @@
 
 namespace Kristories\Novassport\Observers;
 
-use Auth, Str;
+use Auth;
+use Illuminate\Support\Str;
 use Kristories\Novassport\Models\OauthClient;
 
 class OauthClientObserver
